@@ -66,9 +66,10 @@ ros2 launch focimeccs match.launch.py
 ```mermaid
 graph LR;
 
-pub([/match_publisher]):::red --> topic[/focimeccs<br/>std_msgs/String]:::light
+pub([/match_publisher]):::red --> topic[/focimeccs\nstd_msgs/String/]:::lighttopic
 topic --> sub([/match_subscriber]):::red
 
-classDef light fill:#34aec5,stroke:#152742,stroke-width:2px,color:#152742  
+classDef lighttopic fill:#34aec5,stroke:#152742,stroke-width:2px,color:#152742  
 classDef red fill:#ef4638,stroke:#152742,stroke-width:2px,color:#fff
+
 ```
