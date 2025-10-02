@@ -17,7 +17,7 @@ A workspace neve `~/ros2_ws/`:
 
 ```bash
 cd ~/ros2_ws/src
-git clone https://github.com/<aronpalfalvi>/pal_fxt_kisbeadando.git
+git clone https://github.com/aronpalfalvi/pal_fxt_kisbeadando.git
 ```
 
 ---
